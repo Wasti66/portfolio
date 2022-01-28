@@ -1,0 +1,303 @@
+/*-----------------------------------
+----Global CSS For All Projects------
+-----------------------------------*/
+
+/*=======Global CSS ==========*/
+
+/*A*/
+.accordion-rotate-icon i{
+	transform:rotate(180deg);
+}
+.accordion-rotate-icon .collapsed i{
+	transform:rotate(0);
+	transition: all 1s;
+}
+/*B*/
+.bottom-0{
+	bottom:0;
+}
+.background-size-cover{
+	background-size:cover;
+}
+.background-repeat-no-repeat{
+	background-repeat:no-repeat;
+}
+.background-position-center{
+	background-position:center;
+}
+.background-attachment-fixed{
+	background-attachment:fixed;
+}
+.bg-dark-yellow{
+	background-color:#ffb400;
+}
+.bg-black-50{
+	background-color:#111!important;
+}
+.box-shadow-none{
+	box-shadow:none!important;
+}
+.border-radius-30px{
+	border-radius:30px;
+}
+.border-1px-solid-dark-yellor{
+	border:1px solid #ffb400;
+}
+.bg-dark-yellow-hover:hover{
+	background-color:#ffb400;
+}
+/*C*/
+.carsor-pointer{
+	cursor:pointer!important;
+}
+.card:hover .card-transform-scale-120{
+	transform:scale(1.2);
+}
+.card-img-overlay-hover{
+	visibility:hidden;
+	transform:translatey(100%);
+	transition:all .5s;
+}
+.card:hover .card-img-overlay-hover{
+	visibility:visible;
+	transform:translateY(0);
+}
+.card:hover .extra-overlay{
+	opacity:0!important;
+}
+.carousel-indicators-squre-sm li,
+.carousel-indicators-circle-sm li,
+.carousel-indicators-squre-outline-sm li,
+.carousel-indicators-circle-outline-sm li{
+	height:.7rem;
+	width:0.7rem;	
+}
+.carousel-indicators-squre li,
+.carousel-indicators-circle li,
+.carousel-indicators-squre-outline li,
+.carousel-indicators-circle-outline li{
+	height:1rem;
+	width:1rem;	
+}
+.carousel-indicators-squre-lg li,
+.carousel-indicators-circle-lg li,
+.carousel-indicators-squre-outline-lg li,
+.carousel-indicators-circle-outline-lg li{
+	height:1.25rem;
+	width:1.25rem;	
+}
+.carousel-indicators-squre-outline li,
+.carousel-indicators-squre-outline-sm li,
+.carousel-indicators-squre-outline-lg li{
+	background:transparent;
+	border:1px solid #aba9b0;
+}
+.carousel-indicators-circle-outline-sm li,
+.carousel-indicators-circle-outline li,
+.carousel-indicators-circle-outline-lg li{
+	background:transparent;
+	border:2px solid #aba9b0;
+	border-radius:50%;
+}
+.carousel-indicators-circle-sm li,
+.carousel-indicators-circle li,
+.carousel-indicators-circle-lg li{
+	border-radius:50%;
+}
+/*D*/
+.display-1{
+	font-size:10rem!important;
+}
+.dropdown-toggle-right::after{
+	border-top: .3rem solid transparent!important;
+	border-right:0;
+	border-bottom:0.3rem solid transparent!important;
+	border-left:.3rem solid!important;
+	position:absolute;
+	left:auto!important;
+	right:7px!important;
+	top:50%!important;
+	transform:translateY(-50%)!important;
+}
+/*E*/
+
+/*F*/
+.font-size-0_9{
+	font-size:0.9rem!important;
+}
+.font-size-2_6{
+	font-size:2.6rem;
+}
+.font-weight-300{
+	font-weight:300!important;
+}
+.font-weight-500{
+	font-weight:500!important;
+}
+.font-weight-600{
+	font-weight:600!important;
+}
+.font-weight-900{
+	font-weight:900!important;
+}
+/*G*/
+
+/*H*/
+.h-0-5{
+	height:0.5rem!important;
+}
+.height-1{
+	height:1.3rem!important;
+}
+.h-1{
+	height:1.8rem!important;
+}
+.h-2{
+   height:2.5rem!important;
+}
+.h-3{
+	height:3rem!important;
+}
+.h-4{
+	height:4rem!important;
+}
+.h-126per{
+	height:126%!important;
+}
+.hover-box-shadow:hover{
+	box-shadow: 0px 7px 26px rgb(136 90 93 / 25%)!important;
+}
+.hover-dropdown:hover>.dropdown-menu{
+	display:block;
+}
+/*I*/
+
+/*J*/
+
+/*K*/
+
+/*L*/
+.line-height-32 {
+    line-height: 32px!important;
+}
+.line-height-52{
+    line-height: 52px!important;
+}
+.line-height-3_5{
+	line-height:3.5rem!important;
+}
+.letter-spacing-1{
+	letter-spacing:1px!important;
+}
+.letter-spacing-0_6{
+	letter-spacing:0.6px!important;
+}
+.left-0{
+	left:0;
+}
+.left-50{
+	left:50%;
+}
+.left-83min{
+	left:-83%;
+} 
+.left-auto{
+	left:auto;
+}
+/*M*/
+
+/*N*/
+
+/*O*/
+.opacity-1{
+	opacity:1!important;
+}
+/*P*/
+ .padding-10{
+	 padding:10px;
+ }
+ .pb-10{
+	 padding-bottom:10rem!important;
+ }
+ .pt-10{
+	 padding-top:10rem!important;
+ }
+/*Q*/
+
+/*R*/
+.right-0{
+   right:0px;
+}
+.right-30{
+	right:30px!important;
+}
+.right-9{
+	right:9px;
+}
+/*S*/
+
+/*T*/
+.top-0{
+	top:0;
+}
+.top-35{
+	top:35%;
+}
+.top-14min{
+	top:-14%;
+}
+.transition-100{
+	transition:all 0.1s!important;
+}
+.transition-400{
+	transition:all 0.4s!important;
+}
+.transition-1000{
+	transition:all 1s!important;
+}
+.transform-rotate-359_3deg{
+	transform: rotate(359.6deg)!important;
+}
+.text-dark-yellow{
+	color:#ffb400;
+}
+/*U*/
+
+/*V*/
+.visibility-hidden{
+	visibility:hidden;
+}
+/*W*/
+.w-7{
+   width:7rem!important;	
+}
+.w-8{
+	width:8rem!important;
+}
+.w-4{
+	width:4rem!important;
+}
+.w-3{
+	width:3rem!important;
+}
+.w-2{
+   width:2.5rem!important;		  
+}
+.w-1{
+	width:1.8rem!important;
+}
+.word-spacing-2{
+	word-spacing:2px!important;
+}
+/*X*/
+
+/*z*/
+.z-index-0{
+	z-index:0;
+}
+.z-index-1{
+	z-index:1;
+}
+.z-index-10{
+	z-index:10!important;
+}
